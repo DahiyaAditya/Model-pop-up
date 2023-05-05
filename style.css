@@ -1,0 +1,53 @@
+body{
+    background-color:darkblue;
+    
+}
+
+#open-button{
+    background-color: cadetblue;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px outset black;
+    padding: 10px;
+}
+#open-button:hover{
+     background-color: cornflowerblue;
+     transform: translateY(-2px);
+     transition: 0.3s ease-in;
+
+}
+.pop-up-box{
+    height: 80vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pop-up-child{
+    background-color: aquamarine;
+    width: 400px;
+    height:auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.pop-up-child h2{
+    padding: 10px;
+    color:rgb(1, 93, 93);
+}
+.pop-up-child button{
+    width: 20px;
+    height: 30px;
+    margin: 20px;
+    padding-right: 5px;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+}
+.pop-up-child button :hover{
+    color: red;
+}
+.pop-up-child p{
+    padding: 10px;
+}
